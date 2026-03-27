@@ -9,16 +9,22 @@ jobs:
   build:
     name: Jobs to update datas
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Cấp quyền bắt buộc để Action có thể lưu file ảnh vào repo
+
     steps:
-      # Snake Animation
-      - uses: platane/snk@v2
+      # Snake Animation v3
+      - uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: dennis-1240-cdm
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # Đẩy file ảnh lên nhánh "output"
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
