@@ -33,13 +33,19 @@
  
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,js,react,python,c,mysql,postgres" />
-    <br><br>
-    <img src="https://skillicons.dev/icons?i=vscode,github,gitlab,opencv,pytorch" />
-</div>
-
-<br/>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=html,css,js,react,python,c,mysql,postgres" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=vscode,github,gitlab,opencv,pytorch" />
+    </td>
+  </tr>
+</table>
+<br/><br/>
 <hr/>
 
 <div align="center">
@@ -64,5 +70,4 @@
   <img width="325" align="center" src="https://dennisnguyen.vercel.app/api/top-langs?username=dennis-1240-cdm&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5" alt="top langs" />
 </div>
 <br/><br/>
-
 <hr/>
