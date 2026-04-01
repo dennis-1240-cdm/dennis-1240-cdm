@@ -12,7 +12,7 @@
  
  🔭 I’m currently working on **a AI Tech Solutions**
  
- 🌱 I’m currently learning **Docker, Supabase, AWS**
+ 🌱 I’m currently learning **Docker, MySQL, Ubuntu**
 
 💬 Ask me about **Python, Python AI, YOLOv8,...**
 
